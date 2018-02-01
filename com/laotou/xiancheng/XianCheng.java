@@ -38,6 +38,7 @@ public class XianCheng implements  Runnable{
         thread2.join();
         int sum = xianCheng1.sum+xianCheng2.sum;
         System.out.println("求和得到："+sum);
+        System.out.println("helloword");
     }
 
 }
